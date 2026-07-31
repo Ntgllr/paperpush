@@ -52,6 +52,8 @@ Journals
      - ``discrete_mathematics``
    * - `Genome Biology <https://genomebiology.biomedcentral.com>`_
      - ``genome_biology``
+   * - `Health and Quality of Life Outcomes <https://link.springer.com/journal/12955>`_
+     - ``hqlo``
    * - `Nature <https://www.nature.com>`_
      - ``nature``
    * - `Nature Biotechnology <https://www.nature.com/nbt>`_

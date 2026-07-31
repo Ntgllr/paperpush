@@ -713,6 +713,22 @@
       "research_funding": "no"
     }
   },
+  "hqlo.sub": {
+    "journal": "hqlo",
+    "fields": {
+      "article_type": "research",
+      "title": "title of the manuscript",
+      "abstract": "brief abstract of the manuscript",
+      "manuscript_file": "tests/manuscript_files/hqlo/manuscript.docx",
+      "supplementary_file": "tests/manuscript_files/hqlo/supplement.pdf",
+      "cover_letter": "tests/manuscript_files/hqlo/cover_letter.pdf",
+      "authors": "Joseph Richie | jmrich@caltech.edu | California Institute of Technology | Pasadena | USA | Biology | yes\nJoseph Rich | jmrich@usc.edu | University of Southern California | Los Angeles | USA | Radiology | no",
+      "author_contributions": "J.R. conceived the study and drafted the manuscript. All authors read and approved the final manuscript.",
+      "competing_interests": "no",
+      "data_availability_statement": "The datasets used during the current study are available from the corresponding author on reasonable request.",
+      "research_funding": "no"
+    }
+  },
   "science.sub": {
     "journal": "science",
     "fields": {

@@ -2,11 +2,13 @@
 
 Several venues submit through Springer Nature's platform at
 ``https://submission.springernature.com`` (internally "Snapp"), the BMC family
-among them (Genome Biology, BMC Bioinformatics). The wizard is implemented once
+among them (Genome Biology, BMC Bioinformatics, and Health and Quality of Life
+Outcomes). The wizard is implemented once
 here and parameterized by a :class:`Variant`, so each venue is a thin per-slug
-binding module (``genome_biology``, ``bmc_bioinformatics``) that selects its
-Variant and re-exposes the public API. Sign-in goes through the Springer Nature
-identity provider, which the portal redirects to when not authenticated.
+binding module (``genome_biology``, ``bmc_bioinformatics``, ``hqlo``) that
+selects its Variant and re-exposes the public API. Sign-in goes through the
+Springer Nature identity provider, which the portal redirects to when not
+authenticated.
 
 The run stops on the final review page (after the preprint-posting question)
 without clicking the final-submit control, leaving the browser open via
@@ -113,6 +115,11 @@ VARIANTS = {
         "12859",
         login_url=_BMC_BIOINFORMATICS_LOGIN_URL,
         login_link_name="Submit your manuscript",
+    ),
+    "hqlo": Variant(
+        "hqlo",
+        "Health and Quality of Life Outcomes",
+        "12955",
     ),
 }
 
@@ -612,8 +619,9 @@ _ENGINE_RUN = submit_snapp
 class SnappVenue(Venue):
     """A venue on Springer Nature's Snapp platform, selected by its Variant.
 
-    BMC Bioinformatics and Genome Biology each subclass this and set
-    :attr:`variant`. Springer Nature is the inverted-polarity case: the IDP always
+    BMC Bioinformatics, Genome Biology, and Health and Quality of Life Outcomes
+    each subclass this and set :attr:`variant`. Springer Nature is the
+    inverted-polarity case: the IDP always
     shows the "Email address" field while signing in, so its *presence* means signed
     *out* (:attr:`logged_in_present_means_in` is ``False``).
     """

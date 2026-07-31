@@ -53,6 +53,11 @@
             "type": "debugpy", "request": "launch", "module": "paperpush.cli", "justMyCode": false
         },
         {
+            "name": "Debug HQLO",
+            "args": ["submit", "tests/sub_files/hqlo/hqlo.sub"],
+            "type": "debugpy", "request": "launch", "module": "paperpush.cli", "justMyCode": false
+        },
+        {
             "name": "Debug medRxiv",
             "args": ["submit", "tests/sub_files/medrxiv/medrxiv.sub"],
             "type": "debugpy", "request": "launch", "module": "paperpush.cli", "justMyCode": false

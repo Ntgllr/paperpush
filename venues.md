@@ -1,7 +1,7 @@
 ## Supported venues
 
 <!-- BEGIN SUPPORTED VENUES -->
-_21 supported venues (auto-generated from `paperpush/venues.json`)._
+_22 supported venues (auto-generated from `paperpush/venues.json`)._
 
 | Slug | Venue | Venue type | Submission platform | Description | Submit walkthrough |
 | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@ _21 supported venues (auto-generated from `paperpush/venues.json`)._
 | `cell_systems` | [Cell Systems](https://www.cell.com/cell-systems/home) | Journal | Editorial Manager | Cell Press journal publishing research in systems biology, including quantitative, computational, and theoretical approaches to understanding biological systems across scales. | ✅ 2026-07-29 |
 | `discrete_mathematics` | [Discrete Mathematics](https://www.sciencedirect.com/journal/discrete-mathematics) | Journal | Editorial Manager | Elsevier journal publishing original research and survey articles across combinatorics, graph theory, and the broader field of discrete mathematics. | ✅ 2026-07-29 |
 | `genome_biology` | [Genome Biology](https://genomebiology.biomedcentral.com) | Journal | Springer Nature Snapp | Open-access journal publishing peer-reviewed research and methods across all areas of biology and biomedicine studied from a genomic and post-genomic perspective. | ✅ 2026-07-29 |
+| `hqlo` | [Health and Quality of Life Outcomes](https://link.springer.com/journal/12955) | Journal | Springer Nature Snapp | Open-access, peer-reviewed journal focused on the measurement and valuation of health-related quality of life and wider health-related outcomes, including quality of life, wellbeing, and carer-related outcomes. | ✅ 2026-07-31 |
 | `medrxiv` | [medRxiv](https://www.medrxiv.org) | Preprint | openRxiv | Free online archive and distribution server for complete but unpublished manuscripts (preprints) in the medical, clinical, and related health sciences. | ✅ 2026-07-29 |
 | `nature` | [Nature](https://www.nature.com) | Journal | eJournalPress | Weekly multidisciplinary journal publishing peer-reviewed research of outstanding significance across all fields of science and technology, alongside news and commentary. | ✅ 2026-07-29 |
 | `nature_biotech` | [Nature Biotechnology](https://www.nature.com/nbt) | Journal | eJournalPress | Publishes peer-reviewed research and analysis on the science and business of biotechnology, covering the application of biological systems to therapeutics, diagnostics, agriculture, and related areas. | ✅ 2026-07-29 |
